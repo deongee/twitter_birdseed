@@ -20,7 +20,9 @@ Install the zip archive to WordPress just as you normally do for plugin installa
 
 ###Using the sample shortcode
 
-Insert the following shortcode in the page content of WordPress.
+This plugin comes with a shortcode to test how the Tweet.js-Mod works.
+
+To try the shortcode, insert the following shortcode in the page content of WordPress.
 
 <pre><code>[birdseed]</code></pre>
 
