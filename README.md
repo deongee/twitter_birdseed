@@ -33,7 +33,7 @@ By default feeds of the official twitter account will be shown. To specify your 
 Occasionally you might want to specify an ID to the HTML element this shortcode generates. To specify the id, use the id attribute. For example:
 <pre><code>[birdseed id="feed1" username="your_username"]</code></pre>
 
-* Note: Except for the id attribute, all other attributes are compatible with the optional setting names of seaofclouds / tweet jQuery plugin.
+* Note: Except for the id attribute, all other attribute names and values are compatible with those of optional settings of the seaofclouds / tweet jQuery plugin.
 
 NOTICE
 ================
