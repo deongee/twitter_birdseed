@@ -26,7 +26,7 @@ To try the shortcode and the Tweet.js-Mod, insert the following shortcode in the
 
 <pre><code>[birdseed]</code></pre>
 
-By default feeds of the official twitter account will be shown. To specify your account, use username attributes.
+By default feeds of the official twitter account will be shown. To specify your account, use the username attribute.
 
 <pre><code>[birdseed username="your_username"]</code></pre>
 
