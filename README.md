@@ -16,7 +16,7 @@ A brief tour of twitter_birdseed
 
 Install the zip archive to WordPress just as you normally do for plugin installation.
 
-###Integrating the php scripts inside your themes
+###Integrating the php scripts inside your WordPress themes
 
 NOTICE
 ================
