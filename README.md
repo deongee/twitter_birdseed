@@ -18,6 +18,21 @@ Install the zip archive to WordPress just as you normally do for plugin installa
 
 ###Integrating the php scripts inside your WordPress themes
 
+###Using the sample shortcode
+
+Insert the following shortcode in the page content of WordPress.
+
+<pre><code>[birdseed]</code></pre>
+
+By default feeds of the official twitter account will be shown. To specify your account, use username attributes.
+
+<pre><code>[birdseed username="your_username"]</code></pre>
+
+Occasionally you might want to specify an ID to the HTML element this shortcode generates. To specify the id, use the id attribute. For example:
+<pre><code>[birdseed id="feed1" username="your_username"]</code></pre>
+
+* Note: Except for the id attribute, most of attributes are compatible with the optional setting names of seaofclouds / tweet jQuery plugin.
+
 NOTICE
 ================
 This WordPress plugin is supposed to be a demo. It basically has only basic features inheritted from the original sources. So it has been made for you to modify to suit your own needs.
