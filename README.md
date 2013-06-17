@@ -39,6 +39,8 @@ NOTICE
 ================
 This WordPress plugin is supposed to be a demo. It basically has only basic features inheritted from the original sources. So it has been made for you to modify to suit your own needs.
 
+The plugin allows the tweet.js to retrieve data from twitter. However you will still need to customize the ui and appearance to meet the guideline required by twitter, which is not included in this package. For details of the requirement, please refer to https://dev.twitter.com/terms/display-requirements
+
 Please feel free to engage in what ever behavior you wish with the codes as long as it does not harm others.
 
 Preparing now. Please wait till I set up my local git repo on my mac by 18 June 2013.
