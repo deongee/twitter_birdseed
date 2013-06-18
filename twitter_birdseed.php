@@ -10,14 +10,6 @@ Author: Shu Miyao
 License: 
 */
 
-/*
-	important : for production release, 
-	
-		1. replace "Befive" to a proper vendor code in this file as well as in birdseed
-		2. ensure that the mode switch is set to the theme add-on mode (this also works as a plugin).
-		3. remove this message.
-*/
-
 /**
 	create your API key @ https://dev.twitter.com/apps
 */
