@@ -7,7 +7,7 @@ This WordPress plugin was made partly in response to a recent complete shut down
 
 In short, we now need to get authorization to get tweet feeds from the Twitter. Our favorite jquery plugin sea of clouds tweet is not compatible with the newer way of getting tweets from twitter. Then Stan Scates found and shared a work around to use php scripts as an intermediary "layer" in between all the parties involved.
 
-Put aside the older jquery.tweet.js script file and activate this plugin. Your tweet should now work again as it used to before the twitter version 1.0 was completely shut down.
+Using the plugin is relatively easy. Get your own API keys from https://dev.twitter.com/apps. Set variables for the keys and secrets in the twitter_birdseed.php. Put aside the older jquery.tweet.js script file and activate this plugin. Your tweet should now work again as it used to before the twitter version 1.0 was completely shut down.
 
 The twitter_birdseed also comes with a shortcode for testing purposes. Edit the css to customize the appearance.
 
