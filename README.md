@@ -7,7 +7,9 @@ This WordPress plugin was made partly in response to a recent complete shut down
 
 In short, we now need to get authorization to get tweet feeds from the Twitter. Our favorite jquery plugin sea of clouds tweet is not compatible with the newer way of getting tweets from twitter. Then Stan Scates found and shared a work around to use php scripts as an intermediary "layer" in between all the parties involved.
 
-twitter_birdseed also comes with a shortcode for testing on your site. Edit the css to customize the appearance.
+Put aside the older jquery.tweet.js script file and activate this plugin. Your tweet should now work again as it used to before the twitter version 1.0 was completely shut down.
+
+The twitter_birdseed also comes with a shortcode for testing purposes. Edit the css to customize the appearance.
 
 A brief tour of twitter_birdseed
 ================
@@ -25,16 +27,16 @@ Now you need to get your API keys from https://dev.twitter.com/apps
 
 Open up twitter_birdseed.php with your text editor. Set the following variables accordingly.
 <pre><code>	$consumer_key = '';
-	$consumer_secret = '';
-	$user_token = '';
-	$user_secret = '';
+$consumer_secret = '';
+$user_token = '';
+$user_secret = '';
 </code></pre>
 
 ###Using the sample shortcode
 
-This plugin comes with a shortcode to test how the Tweet.js-Mod works.
+This plugin comes with a shortcode to test how the modified Tweet.js-Mod works.
 
-To try the shortcode and the Tweet.js-Mod, insert the following shortcode in the page content of WordPress.
+To try the shortcode and the modified version of Tweet.js-Mod, insert the following shortcode in the page content of WordPress.
 
 <pre><code>[birdseed]</code></pre>
 
@@ -57,7 +59,7 @@ Please feel free to engage in what ever behavior you wish with the codes as long
 
 Preparing now. Please wait till I set up my local git repo on my mac by 18 June 2013.
 
-Respect
+References 
 ================
 All the codes remixed in the twitter_birdseed WordPress plugin came from:
 
