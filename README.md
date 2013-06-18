@@ -26,7 +26,7 @@ Now you need to get your API keys from https://dev.twitter.com/apps
 * User secret
 
 Open up twitter_birdseed.php with your text editor. Set the following variables accordingly.
-<pre><code>	$consumer_key = '';
+<pre><code>$consumer_key = '';
 $consumer_secret = '';
 $user_token = '';
 $user_secret = '';
