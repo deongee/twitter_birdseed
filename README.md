@@ -57,8 +57,6 @@ The plugin allows the tweet.js to retrieve data from twitter. However you will s
 
 Please feel free to engage in what ever behavior you wish with the codes as long as it does not harm others.
 
-Preparing now. Please wait till I set up my local git repo on my mac by 18 June 2013.
-
 References 
 ================
 All the codes remixed in the twitter_birdseed WordPress plugin originally came from:
