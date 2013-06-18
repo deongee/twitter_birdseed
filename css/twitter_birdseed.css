@@ -1,0 +1,10 @@
+/**
+	twitter_birdseed css
+*/
+
+.twitter_birdseed {
+	border: 1px gray solid;
+	width: 100%;
+	height: auto;
+	min-height: 150px;
+}
