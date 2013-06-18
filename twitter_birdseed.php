@@ -26,13 +26,17 @@ License:
 	define('Befive_birdseed_RESOURCE_URI', plugins_url('', __FILE__) );
 	
 	/* use the following if you like to integrate this plugin in your wordpress theme
-	 note: you need to place the twitter_birdseed in the root directory of your theme */
+	 note: you need to place the twitter_birdseed folder in the root directory of your theme.
+	 then include twitter_birdseed.php from your functions.php
+	 Do not forget removing the enqueue of the old jquery.tweet.js which used to work for Twitter API v. 1.
+	  */
 	// define('Befive_birdseed_RESOURCE_URI', get_template_directory_uri().'/twitter_birdseed' );
+
 
 // EzTweet Class
 	include(Befive_birdseed_ROOT_PATH.'/class/EzTweet.php');
 	
-//	For shortcode
+// Birdseed Class
 	include(Befive_birdseed_ROOT_PATH.'/class/Birdseed.php');
 	
 	// use shortcode
