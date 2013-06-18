@@ -61,7 +61,7 @@ Preparing now. Please wait till I set up my local git repo on my mac by 18 June 
 
 References 
 ================
-All the codes remixed in the twitter_birdseed WordPress plugin came from:
+All the codes remixed in the twitter_birdseed WordPress plugin originally came from:
 
 StanScates / Tweet.js-Mod
 https://github.com/StanScates/Tweet.js-Mod
