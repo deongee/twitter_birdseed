@@ -3,7 +3,7 @@
  * @package Befive
  */
 /*
-Plugin Name: Twitter Birdsheed
+Plugin Name: Twitter Birdseed
 Description: Twitter / seaofclouds WordPress plugin Sample. Based on mod by Stan Scates. Compatible with WordPress v 3.5 + (possibly 3.2 +)
 Version: 1.0
 Author: Shu Miyao
