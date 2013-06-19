@@ -10,14 +10,16 @@ blrfurther.com
 Basic OAuth and caching layer for Seaofclouds' tweet.js, designed
 to introduce compatibility with Twitter's v1.1 API.
 
-Version: 1.4
-Created: 2013.02.20
-
 https://github.com/seaofclouds/tweet
 https://github.com/themattharris/tmhOAuth
 
-
 Copyright (c) 2013 Stan Scates
+
+
+Modified by Shu Miyao
+
+This file is based on Version: 1.4 (Created: 2013.02.20)
+
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
