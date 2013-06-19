@@ -160,24 +160,11 @@ class Birdseed {
 		you can access this function from your themes
 		usage example : <?php echo $your_instance->befive_shortcode_birdseed_output($id); ?> */
 	public function befive_shortcode_birdseed_output ($atts) {		
-		ob_start(); ?>
-			<div class="twitter_birdseed" id="<?php echo $atts['id']; ?>"></div>
-			<script type="text/javascript">
-				jQuery(document).ready(function() {
-					jQuery('#<?php echo $atts['id']; ?>').tweet({
-					<?php
-					    foreach($atts as $key => $value) {
-						    if($value) echo "'{$key}' : '{$value}',\n";
-					    }
-					    ?>
-					    'modpath': jQuery('input#twitter_modpath').val(),
-					    '_ajax_nonce': jQuery('input#ajax_nonce_birdseed').val(),
-					    'action' : 'birdseed'
-					});
-				});
-			</script>
-		<?php $output = ob_get_contents();
-		ob_end_clean();
+		$output = '<div class="twitter_birdseed" id="'.$atts["id"].'"></div><script type="text/javascript">jQuery(document).ready(function() {jQuery("#'.$atts["id"].'").tweet({';
+	    foreach($atts as $key => $value) {
+		    if($value) $output .= "'{$key}' : '{$value}',\n";
+	    }
+		$output .= '"modpath": jQuery("input#twitter_modpath").val(),"_ajax_nonce": jQuery("input#ajax_nonce_birdseed").val(),"action" : "birdseed"});});</script>';
 		return $output;
 	}
 }
