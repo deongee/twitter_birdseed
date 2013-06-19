@@ -13,10 +13,10 @@ License:
 /**
 	create your API key @ https://dev.twitter.com/apps
 */
-	$consumer_key = '';
-	$consumer_secret = '';
-	$user_token = '';
-	$user_secret = '';
+	$consumer_key = ''; // YOUR_CONSUMER_KEY
+	$consumer_secret = ''; // YOUR_CONSUMER_SECRET
+	$user_token = ''; // YOUR_ACCESS_TOKEN
+	$user_secret = ''; // YOUR_ACCESS_TOKEN_SECRET
 
 // !Constants defined
 	// define Befive_ajax_search_ROOT_PATH where this plugin is located.
@@ -58,10 +58,10 @@ License:
 		Befive_birdseed_ROOT_PATH.'/class/lib/',
 		Befive_birdseed_ROOT_PATH.'/cache/',
 		array (
-			'consumer_key'=>'rA1s8coKPStZwA8Y07n2w',
-			'consumer_secret'=>'0s5daI4U8GUwcRnp9hgW76pxJGzEEZW6m5Tmr43k',
-			'user_token'=>'551825181-7JGi896EEDn6o3g331a7N5s4vYNQ6ZkjLy9WAAuN',
-			'user_secret'=>'njN0nhq7xamlYB2De3KlrkiEg0CahgY3hFqyHC54xQM',
+			'consumer_key'=>'',
+			'consumer_secret'=>'',
+			'user_token'=>'',
+			'user_secret'=>'',
 		)
 	);
 */

@@ -11,16 +11,16 @@
 class Birdseed {
 	/*************************************** config ***************************************/
    // Your Twitter App Consumer Key
-	private $consumer_key = 'YOUR_CONSUMER_KEY';
+	private $consumer_key = '';
 
 	// Your Twitter App Consumer Secret
-	private $consumer_secret = 'YOUR_CONSUMER_SECRET';
+	private $consumer_secret = '';
 
 	// Your Twitter App Access Token
-	private $user_token = 'YOUR_ACCESS_TOKEN';
+	private $user_token = '';
 
 	// Your Twitter App Access Token Secret
-	private $user_secret = 'YOUR_ACCESS_TOKEN_SECRET';
+	private $user_secret = '';
 	
 	// required vars
 	private $library_path = '';
